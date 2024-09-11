@@ -43,19 +43,27 @@ body {
 }
 
 
+.prices--section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
 .prices--button{
   background-color: var(--bg-dark-900);
-  border-radius: .999rem;
+  border-radius: .333rem;
   color: var(--primary-900);
-  padding:1.2rem;
+  padding:.1rem;
 }
 
 .prices--button p{
   font-family: Arial, Helvetica, sans-serif;
   color: var(--primary-100);
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: 600;
-  margin: 2.4rem;
+  margin: .999rem;
 }
 
 
@@ -607,7 +615,6 @@ main{
 .grilla--precio {
   width: 100%;
   height: auto;
-  padding: .8rem;
 }
 
 .grilla--precio p {
