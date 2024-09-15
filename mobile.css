@@ -51,6 +51,10 @@ body {
   border-radius: 0;
 }
 
+.prices--section h2{
+  font-family: galindo;
+}
+
 .prices--button{
   background-color: var(--bg-dark-900);
   border-radius: .333rem;
@@ -62,7 +66,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--primary-100);
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 400;
   margin: .999rem;
 }
 
